@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Sleek modern font */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #eaf2f8, #d4e4f3); /* Gradient background */
+    color: #2c3e50; /* Dark blue text */
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 25px;
+    background: #ffffff;
+    border: none; /* Removed border for cleaner look */
+    border-radius: 15px; /* Slightly rounder corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Softer shadow */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1d78d1; /* Deep blue heading */
+    font-size: 1.8em; /* Larger font size for prominence */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Added gap between form elements */
+}
+
+label {
+    font-weight: bold;
+    color: #34495e; /* Slightly darker label color */
+    font-size: 1em; /* Increased label size */
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #bcd0e8;
+    border-radius: 8px;
+    background-color: #f7fbff;
+    font-size: 1em; /* Larger input text */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+}
+
+input:focus {
+    border-color: #1d78d1; /* Highlight input on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(29, 120, 209, 0.5);
+}
+
+button {
+    padding: 12px;
+    background-color: #1d78d1; /* Vibrant blue button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em; /* Increased button text size */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #155fa1; /* Darker shade for hover */
+}
+
+a {
+    color: #1d78d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #155fa1; /* Darker blue hover */
+}
+
+.message {
+    text-align: center;
+    color: #e74c3c; /* Red for error messages */
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #95a5a6; /* Light gray text for footer */
+    font-style: italic; /* Subtle italic footer */
+}
